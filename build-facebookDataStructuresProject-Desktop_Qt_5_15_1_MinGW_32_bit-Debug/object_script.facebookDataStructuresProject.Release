@@ -1,0 +1,13 @@
+release/Comment.o
+release/NewsFeed.o
+release/Post.o
+release/TimeLine.o
+release/User.o
+release/homepage.o
+release/main.o
+release/mainwindow.o
+release/signup.o
+release/qrc_resources.o
+release/moc_homepage.o
+release/moc_mainwindow.o
+release/moc_signup.o

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/facebooklogo">
+        <file>birthday-cake-24 (1).png</file>
+        <file>facebooklogo.png</file>
+        <file>facebooktextlogo.png</file>
+        <file>home-5-24.png</file>
+        <file>homeicon.png</file>
+        <file>rename-24.png</file>
+        <file>smallfacelogo.png</file>
+        <file>student-24.png</file>
+        <file>user-24.png</file>
+        <file>worker-24.png</file>
+    </qresource>
+</RCC>

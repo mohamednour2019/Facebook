@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signup</class>
+ <widget class="QWidget" name="signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>950</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>550</width>
+     <height>950</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame
+{
+background-color: rgb(27, 29, 35);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLineEdit" name="usernametextbox">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>190</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>User Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordtextsignup">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>340</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signupbuttonsignupform">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>821</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-color: rgb(88, 144, 255);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+color:#fff;
+}
+QPushButton:hover
+{
+background-color: rgb(47, 116, 251);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>301</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGraphicsView
+
+{
+	background-image: url(:/facebooklogo/facebooktextlogo.png) no-repeat center center fixed;
+    background-size:cover;
+    border:0px
+
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="worktextbox">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>490</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Work</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="educationtextbox">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>565</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Education</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="gendertextbox">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>640</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Gender</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="birthdatetextbox">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>415</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>BirthDate</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailtextsignup">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>265</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="liveintextbox">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>715</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit
+{
+background-color: rgb(37, 39, 48);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+padding-left:20px;
+color:#fff;
+padding-right:20px;
+}
+QLineEdit:hover
+{
+border:2px solid rgb(48,50,62);
+}
+QLineEdit:focus
+{
+border:2px solid rgb(85,170,255);
+background-color:rgb(43,45,56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Live In</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

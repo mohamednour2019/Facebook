@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Homepage</class>
+ <widget class="QWidget" name="Homepage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>950</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>550</width>
+     <height>950</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame
+{
+background-color: rgb(27, 29, 35);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>551</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="timelinebutton">
+     <property name="geometry">
+      <rect>
+       <x>38</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background-color: rgb(88, 144, 255);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+color:#fff;
+}
+QPushButton:hover
+{
+background-color: rgb(47, 116, 251);
+}</string>
+     </property>
+     <property name="text">
+      <string>Timeline</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="newsfeedbutton">
+     <property name="geometry">
+      <rect>
+       <x>118</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background-color: rgb(88, 144, 255);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+color:#fff;
+}
+QPushButton:hover
+{
+background-color: rgb(47, 116, 251);
+}</string>
+     </property>
+     <property name="text">
+      <string>NewsFeed</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="friendsbutton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background-color: rgb(88, 144, 255);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+color:#fff;
+}
+QPushButton:hover
+{
+background-color: rgb(47, 116, 251);
+}</string>
+     </property>
+     <property name="text">
+      <string>Friends</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="groupsbutton">
+     <property name="geometry">
+      <rect>
+       <x>283</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background-color: rgb(88, 144, 255);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+color:#fff;
+}
+QPushButton:hover
+{
+background-color: rgb(47, 116, 251);
+}</string>
+     </property>
+     <property name="text">
+      <string>Groups</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settingbutton">
+     <property name="geometry">
+      <rect>
+       <x>365</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background-color: rgb(88, 144, 255);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+color:#fff;
+}
+QPushButton:hover
+{
+background-color: rgb(47, 116, 251);
+}</string>
+     </property>
+     <property name="text">
+      <string>Setting</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="logoutbutton">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>20</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+background-color: rgb(88, 144, 255);
+border:2px solid rgb(37,39,48);
+border-radius:20px;
+color:#fff;
+}
+QPushButton:hover
+{
+background-color: rgb(47, 116, 251);
+}</string>
+     </property>
+     <property name="text">
+      <string>Logout</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>550</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QFrame" name="timelineframe">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>550</width>
+        <height>861</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGraphicsView" name="graphicsView">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>70</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGraphicsView
+{
+	background-image: url(:/facebooklogo/rename-24.png)no-repeat center center fixed;
+border:0px;
+}</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>295</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGraphicsView
+{
+	border-image: url(:/facebooklogo/birthday-cake-24 (1).png)no-repeat center center fixed;;
+border:0px;
+}</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_3">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGraphicsView
+{
+	background-image: url(:/facebooklogo/home-5-24.png)no-repeat center center fixed;
+border:0px;
+}</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_4">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>160</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGraphicsView
+{
+	background-image: url(:/facebooklogo/student-24.png)no-repeat center center fixed;
+
+border:0px;
+}</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_5">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>205</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGraphicsView
+{
+
+
+	background-image: url(:/facebooklogo/worker-24.png)	no-repeat center center fixed;
+border:0px;
+}</string>
+       </property>
+      </widget>
+      <widget class="QGraphicsView" name="graphicsView_6">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>115</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGraphicsView
+
+{
+	background-image: url(:/facebooklogo/user-24.png);no-repeat center center fixed;
+border:0px;
+}</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="usernamedisplaytimeline">
+       <property name="geometry">
+        <rect>
+         <x>72</x>
+         <y>75</y>
+         <width>440</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="genderdisplaytimeline">
+       <property name="geometry">
+        <rect>
+         <x>73</x>
+         <y>120</y>
+         <width>440</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="educationdisplaytimeline">
+       <property name="geometry">
+        <rect>
+         <x>74</x>
+         <y>165</y>
+         <width>440</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="workdisplaytimeline_4">
+       <property name="geometry">
+        <rect>
+         <x>73</x>
+         <y>210</y>
+         <width>440</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="liveindisplaytimeline_5">
+       <property name="geometry">
+        <rect>
+         <x>74</x>
+         <y>255</y>
+         <width>440</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="birthdaydisplaytimeline">
+       <property name="geometry">
+        <rect>
+         <x>75</x>
+         <y>300</y>
+         <width>440</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
